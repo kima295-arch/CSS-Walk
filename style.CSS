@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #fdfbf3;
+
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 31px,
+    rgb(48, 69, 131) 31px,
+    rgb(48, 43, 139) 32px
+);
+
+    text-align: center;
+
+    font-family: "Caveat", cursive;
+
+    color: #333333;
+
+    padding: 40px;
+}
+
+
+h1 {
+    font-size: 70px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+ p {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 1.3;
+    max-width: 750px;
+    margin: 0 auto 0px auto;
+}
+
+
+
+.grocery-list {
+    font-size: 25px;
+    line-height: 1;
+    list-style: none;
+    padding: 0;
+}
+
+.grocery-list li {
+    margin: 5px 0;
+}
+
+.grocery-list input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/* Fruit colors */
+
+.mushrooms {
+    color: rgb(146, 105, 75);
+}
+
+.bananas {
+    color: #e6b800;
+}
+
+.Olive-oil {
+    color: rgb(145, 167, 110);
+}
+
+.strawberries {
+    color: #e63946;
+}
+
+.carrots {
+    color: #e9822e;
+}
+
+.lettuce {
+    color: rgb(86, 161, 60);
+}
+
+
+.ending {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
